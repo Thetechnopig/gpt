@@ -19,7 +19,7 @@ function App() {
           <li><Link to="/servers">Servers</Link></li>
           <li><Link to="/events">Events</Link></li>
           <li><Link to="/rules">Rules</Link></li>
-          <li className="dropdown">
+<li className="dropdown">
             <Link to="/battalions">Battalions</Link>
             <ul className="dropdown-menu">
               <li><Link to="/battalions/1st-recon">1st Recon Battalion</Link></li>
@@ -28,7 +28,8 @@ function App() {
               <li><Link to="/battalions/hq-service">HQ &amp; Service</Link></li>
             </ul>
           </li>
-        </ul>
+<li><Link to="/battalions">Battalions</Link></li>
+</ul>
       </div>
       <Routes>
         <Route path="/" element={<Home />} />
@@ -36,10 +37,12 @@ function App() {
         <Route path="/events" element={<Events />} />
         <Route path="/rules" element={<Rules />} />
         <Route path="/battalions" element={<Battalions />} />
-        <Route path="/battalions/1st-recon" element={<Battalion1stRecon />} />
+<Route path="/battalions/1st-recon" element={<Battalion1stRecon />} />
         <Route path="/battalions/2nd-recon" element={<Battalion2ndRecon />} />
         <Route path="/battalions/3rd-recon" element={<Battalion3rdRecon />} />
         <Route path="/battalions/hq-service" element={<BattalionHQService />} />
+
+
       </Routes>
     </Router>
   )
