@@ -21,3 +21,36 @@
 .nav a:hover {
   text-decoration: underline;
 }
+
+.dropdown {
+  position: relative;
+}
+
+.dropdown-menu {
+  display: none;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  list-style: none;
+  margin: 0;
+  padding: 0.5rem;
+  background-color: #1a1a1a;
+}
+
+.dropdown:hover .dropdown-menu {
+  display: block;
+}
+
+.dropdown-menu li {
+  margin: 0;
+=======
+}
+
+.nav a {
+  text-decoration: none;
+  color: #61dafb;
+}
+
+.nav a:hover {
+  text-decoration: underline;
+}

@@ -2,6 +2,7 @@
 
 This repository contains a React application created with [Vite](https://vitejs.dev/) for the **1st Marine Division** gaming group.
 
+
 The source code lives in the `app/` directory. To start a development server:
 
 ```bash
