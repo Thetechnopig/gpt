@@ -1,11 +1,8 @@
-# 1st Recon Gaming Clan React Site
+# 1st Marine Division Website
 
-This repository contains a React application scaffolded with [Vite](https://vitejs.dev/).
-It will serve as the starting point for updating the **1st Recon** military gaming
-clan website to a modern React-based stack.
+This repository contains a React application created with [Vite](https://vitejs.dev/) for the **1st Marine Division** gaming group.
 
-The source code for the app lives in the `app/` directory. Run the following to
-install dependencies and start a development server:
+The source code lives in the `app/` directory. To start a development server:
 
 ```bash
 cd app
